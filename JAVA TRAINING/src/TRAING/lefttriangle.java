@@ -11,10 +11,10 @@ public class lefttriangle {
 	 for (a = 0; a < k; a++) {
 		  
          // nested 2nd loop
-        // for (b = 2 * (k - a); b >= 0; b--) {
+         for (b = 2 * (k - a); b >= 0; b--) {
              // printing spaces
              System.out.print(" ");
-      //   }
+       }
 
          // nested 3rd loop
          for (b = 0; b <= a; b++) {

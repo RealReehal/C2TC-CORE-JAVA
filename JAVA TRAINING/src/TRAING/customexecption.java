@@ -6,7 +6,7 @@ public class customexecption {
 	Scanner a=new Scanner(System.in);
 	System.out.print("enter age ");// TODO Auto-generated method stub
 int i=a.nextInt();
-if (i<18) {throw new Cantvote("cant vote ");
+if (i<18) {throw new Cantvote("cant vote dude");
 
 	}
 else {System.out.print("vote ");
