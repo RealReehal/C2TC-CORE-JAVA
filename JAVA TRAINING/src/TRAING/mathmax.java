@@ -8,7 +8,8 @@ public class mathmax {
 	int a=aScanner.nextInt();
 	System.out.println("enter b");
 	int b=aScanner.nextInt();// TODO Auto-generated method stub
-	System.out.println("greater Number is "+Math.max(a, b));;
+	System.out.println("greater Number is "+Math.max(a, b));
+	System.out.println("smaller Number is "+Math.min(a, b));
 	
 	}
 
